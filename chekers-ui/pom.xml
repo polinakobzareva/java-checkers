@@ -10,8 +10,15 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>engine</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>chekers-ui</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.checkers</groupId>
+            <artifactId>engine</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
